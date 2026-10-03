@@ -1,0 +1,6 @@
+interface:
+  display_name: "科研英文论文写作专家"
+  short_description: "从科研思路到英文论文，完成起草、深度修改、润色与证据核查"
+  default_prompt: "请使用 $academic-writing-expert 处理我提供的论文或研究材料，按任务需要梳理论证、起草或润色，保留科学含义，并用中文说明重要修改。"
+policy:
+  allow_implicit_invocation: true
