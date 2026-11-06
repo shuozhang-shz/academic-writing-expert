@@ -2,6 +2,8 @@
 
 Prefer precision, coherence, and economy. Apply the principles in context; they are not mechanical replacement rules. Source rule numbers below refer to the supplied Strunk PDF, whose numbering differs from some later editions. See [source map](source-map.md) for locations and historical qualifications.
 
+For a difficult paragraph or sentence, read the relevant part of [composition decisions](composition-decisions.md). It expands rules 9–18 with topic diagnostics, contextual voice choices, safe compression, sentence hierarchy, parallel constructions, attachment tests, literature-review tense, and emphasis. Ordinary edits need only the guidance below.
+
 ## Paragraphs and information flow — rules 9–10, 18
 
 Give each paragraph a coherent purpose that advances the section. A topic sentence near the beginning often helps readers locate that purpose, but a brief transition or necessary setup may come first. Support the proposition with evidence, explanation, or reasoning; let the ending establish a useful consequence or prepare the next step. Do not end every paragraph with a stock summary or force a one-sentence paragraph to expand without a reason.

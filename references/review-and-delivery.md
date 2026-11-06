@@ -12,6 +12,10 @@ Use a full review for substantive manuscript work or an explicit audit. For loca
 
 For a full audit, separate a factual conflict or unsupported conclusion from an optional stylistic improvement. Describe each material issue using location, evidence, consequence, and a concrete repair or author question. Do not invent a numerical quality score or call a paper publishable because its language is fluent.
 
+### Trace a central result through the manuscript
+
+For a whole-paper audit, start at the introduction's question. Locate the method needed to generate each key result, then the figure, table or analysis supporting the result. Locate the discussion's interpretation and its comparison with prior work. Finish at the conclusion and check that it answers the opening question within the tested conditions. Work backward for a claim that appears only in the conclusion. Record the first missing link with its location and a specific author query. For combined sections or non-empirical papers, trace the equivalent argument in the structure the author uses.
+
 ## Deliver the useful artifact first
 
 | User intent | Default output |

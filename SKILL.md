@@ -1,6 +1,6 @@
 ---
 name: academic-writing-expert
-description: Draft, revise, translate, and polish scientific papers in English, from research notes to manuscript checks. Use for 科研英文论文写作、修改、润色 and Chinese-to-English academic rewriting.
+description: Draft, revise, translate, and polish English research papers and journal submission cover letters. Use for 科研论文写作、润色、中译英、期刊投稿信 and revision correspondence.
 ---
 
 # Academic Writing Expert / 科研英文论文写作专家
@@ -9,13 +9,20 @@ Help the researcher produce clear, defensible English manuscripts while retainin
 
 ## Start at the requested level
 
+For a Chinese overview of available tasks and example requests, see the [feature guide](FEATURES.zh-CN.md).
+
 Infer the task, section, audience, evidence available, and intended depth from the conversation and files. Do useful work immediately. Ask only about missing information that changes scientific meaning or the deliverable; continue unaffected work. Write manuscript prose in English and explain in the user's language unless asked otherwise.
 
 | Request | Editing scope | Read as needed |
 |---|---|---|
 | Ideas, notes, figures, or an outline | Develop a defensible argument and draft supported sections | [Workflow](references/workflow.md), [argument and evidence](references/argument-and-evidence.md), relevant [section guidance](references/manuscript-sections.md) |
+| Titles, abstracts, or keywords / 标题、摘要、关键词 | Draft the requested components, select relevant search terms, or check their consistency | Relevant parts of [titles, abstracts, and keywords](references/titles-abstracts-keywords.md); section guidance |
+| Journal cover letter / 投稿信 / 投稿附信 / coverletter | Draft, tailor or audit an editor-facing letter from the paper and the journal brief | [Journal cover letters](references/journal-cover-letter.md) |
+| References, funding or acknowledgments / 引文、资助与致谢 | Reconcile citations and entries or credit confirmed support | [References and acknowledgments](references/references-and-acknowledgments.md) |
+| Submission package or revision correspondence / 投稿材料、返修与逐点回复 | Check file and declaration consistency or connect each reviewer comment with an evidenced change | [Submission and revision](references/submission-and-revision.md) |
 | Substantive revision / 重写 | Reorganize arguments and paragraphs while preserving facts | Workflow, argument and evidence, section guidance |
 | Polish / 润色 / copy-edit | Improve sentences and local cohesion; keep claims and structure | [Language and style](references/language-and-style.md) |
+| Paragraph organization, sentence rhythm, or emphasis / 句段结构与重点 | Diagnose topic development, voice, parallelism, information order, and tense in context | Relevant parts of [composition decisions](references/composition-decisions.md); language and style |
 | Detailed grammar correction / 语法纠错 / 讲解句法 | Diagnose clause boundaries, punctuation, fragments, attachment, or word division | Relevant parts of [grammar and punctuation](references/grammar-and-punctuation.md); language and style |
 | Chinese-to-English / 中译英 | Re-express the intended science in idiomatic English | Language and style; workflow's translation guidance |
 | Shorten / compress | Meet the requested length without losing scientific qualifiers | Language and style; relevant section guidance |

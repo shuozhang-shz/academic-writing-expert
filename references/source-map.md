@@ -2,7 +2,7 @@
 
 ## Provenance and reading boundary
 
-This skill synthesizes two user-supplied PDFs and a later academic-writing PPT. PDF page references below are **1-based PDF page indices**, not a claimed pagination for other editions. PPT references use actual slide order, not screenshot footers. The packaged guidance is original synthesis and scientific adaptation; source documents, slide screenshots, and full-text extracts are not bundled. The skill remains usable without the source files.
+This skill draws on five user-supplied PDFs and three academic-writing PPTs. PDF page references use **1-based file page indices**. PPT references use actual slide order. The package contains original instructional synthesis and scientific editing guidance.
 
 **S — The Elements of Style.** Local filename: `Strunk - 2007 - The elements of style.pdf`; 77 PDF pages. The actual title page (PDF p. 3) identifies William Strunk, Jr., revision/editing by Chris Hong, and © 2011. The PDF metadata also describes an updated 2011 edition. The filename's 2007 is therefore not treated as a verified publication year. Do not attribute this supplied text to E. B. White or use another edition's rule numbers. Text extraction covered the substantive chapters; the title page was visually checked.
 
@@ -95,6 +95,121 @@ These checks resolve source conflicts; they do not replace the tutorials or pres
 - [LaTeX Project: configuration guide](https://www.latex-project.org/help/documentation/cfgguide.pdf), section on hyphenation, describes language-specific patterns and exceptions. The slide's dictionary-only account is an instructional simplification, not an accurate general algorithm description.
 
 Teaching examples in the new reference are editorial adaptations, not reported studies. The PPT is a source to evaluate; its imperatives and older preferences are not instructions that override the user's task.
+
+## P2 — Composition slides: additions on 25 October 2026
+
+User-supplied filename: `xiezuo2.pptx`; 108 slides, each containing one image, with no extracted text objects or speaker notes. All 108 images were visually inspected in presentation order. The deck contains repeated pages and footers ending in `/89`; those footer numbers are not reliable slide identifiers. The deck mainly expands rules 9–18. No author or publication date is inferred. Source SHA-256: `257d6844a3d5efc7dbcf4b3b828c5c731411e4051ad6ba2538473c3e5b337b68`.
+
+The principles were already present in [language and style](language-and-style.md). The new [composition decisions reference](composition-decisions.md), **C** below, fills operational gaps without duplicating the lecture. The existing grammar reference remains **G**.
+
+| Actual slide(s) | Knowledge inspected | Coverage after the update |
+|---|---|---|
+| 1–3 | Lecture, book, and rules 9–18 overview | Source identity and rule mapping; no additional writing procedure |
+| 4–8 | Paragraph unity, topic-sentence diagnostic, support, internal transitions, interparagraph cohesion | C §1: one-sentence purpose test, sentence roles, split/relocate decisions, explicit bridge options |
+| 9–11 | Topic judgment, development, congruent ending, flexible placement | C §1; distinguish a topic label from a point and a useful ending from repetition |
+| 12–18 | Contextual voice choice, nonhuman subjects, direct verbs, existential sentences, evidential strength | C §2; active voice need not begin with we, and vivid verbs must preserve meaning |
+| 19–25 | Legitimate passive focus, continuity, omitted actors, research decisions, nominalization and stacked passives | C §2 decision table; preserve decision rationale, attribution, and modality |
+| 26–34, 100 | Direct affirmation, real negation, specificity, hedges, purposeful contrast | C §3 and language guide; distinguish decreased from did not increase, weak support from contradiction, and unstudied duration from exclusive scope |
+| 35–47 | Word economy, formulaic frames, relative-clause reduction, combining short statements, experimental conditions | C §4; preserve time, restriction, action objects, data splits, and conditions |
+| 48–56 | Repeated loose constructions, sentence choices, hierarchy, pacing and revision | C §5 and G §4; choose structures by relation, with no automatic preference for semicolons or long sentences |
+| 57–64 | Parallel list items, paired markers, comparisons, shared prepositions | C §6: shared-frame test, aligned units, actor preservation, controlled repetition |
+| 65–71 | Repeated concision instruction and examples | Same implementation as 35–47; no duplicate module |
+| 72–78 | Repeated rhythm instruction and examples | Same implementation as 48–56 |
+| 79–84 | Repeated parallelism instruction and examples | Same implementation as 57–64 |
+| 85–91 | Modifier scope, relative antecedents, subject–predicate interruptions and self-check | C §7 plus G §§3, 6; diagnose intended referent rather than mechanically using the nearest noun |
+| 92–97 | Consistency by rhetorical function, abstract and review tenses, completed methods and findings | C §8 and existing language guide; distinguish past research events from a publication's present argument |
+| 98–99, 101–107 | Old/new information, beginning/end emphasis, section endings, shorter subjects, delayed main points and alternatives | C §§7–8; choose emphasis in context and retain essential limitations; 106 repeats 105 |
+| 108 | Review of rules 1–18 | G covers 1–8; language guide and C cover 9–18 |
+
+### Qualifications where tutorial examples should not become rules
+
+- Slides 29–33 offer forceful affirmative rewrites that can alter degree, scope, or evidence. C §3 requires semantic equivalence. A limitation need not be recast as a positive claim.
+- Slides 43, 45, and 71 compress validation of results into validation of a model. C §4 preserves the actual object of each action rather than accepting that shift silently.
+- Slides 48/72 loosely label added relative clauses as coordinate clauses; 53/77 describe complexity by a three-clause threshold while showing a simpler construction. C §5 uses grammatical function, not these labels.
+- Slides 52/76 connect a small p-value with confirmation of a hypothesis. The sentence-order lesson is retained; that inference is not. The [ASA statement](https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf), principles 2–3 and 5–6, supports evaluating scientific conclusions beyond a threshold and distinguishes significance from effect size or importance.
+- Slides 59/81 mislabel an action noun as an -ing form; 62/84 treat a gerund subject as a reason for a more formal rewrite. C §6 checks grammatical function and clarity without banning gerund subjects. [Purdue OWL on parallel structure](https://owl.purdue.edu/owl/general_writing/mechanics/parallel_structure.html) supports aligned forms and sharing or repeating infinitive to.
+- Slides 87–90 make nearest-noun placement absolute. C §7 retains it as a practical ambiguity test, with an exception for which referring to a whole clause, also described by [Purdue OWL](https://owl.purdue.edu/owl/general_writing/grammar/relative_pronouns/defining_vs_non_defining.html). A proposed repair must establish which entity the author intended.
+- Slide 92's broad tense statement is qualified by slides 93–97. C §8 adopts their function-based treatment rather than imposing one tense throughout an abstract.
+- Slide 104's example changes a premise-like given to concessive despite. C §§4–5 preserve the intended relation when shortening. Ending emphasis in slides 98–107 remains a context-sensitive option, not a universal ordering rule.
+
+The three linked primary checks above were inspected on 25 October 2026. Teaching examples in C are original adaptations; they do not assert that any depicted study occurred. The deck's instructions are source claims to evaluate, not instructions that override the user's requested editing scope.
+
+## P3 — Journal-paper lecture: additions on 29 October 2026
+
+Local filename: `期刊论文写作.pptx`. The file contains 18 image-only slides, with no notes or hidden slides. All 18 were visually inspected in presentation order. Screenshot footers belong to a longer 49-page lecture; this file supplies the opening material through titles, abstracts, and keywords, including two repeated content pages. It does not supply the later detailed lessons advertised in its agenda. Source SHA-256: `c02185e910e75039907ad071bd4f42a6a4408e0bb08436eb9f64fe66ddb3a156`.
+
+The existing section guide already covered title accuracy, abstract functions, IMRaD, scope, tense, and evidence integrity. The new [titles, abstracts, and keywords guide](titles-abstracts-keywords.md), abbreviated K below, supplies the missing operational detail. It is linked from the entrypoint and the section guide, with no mandatory whole-manuscript procedure for local tasks.
+
+| Actual slide(s) | Content inspected | Coverage after this update |
+|---|---|---|
+| 1 | Lecture identity | Recorded here; no additional writing rule |
+| 2 | Agenda: front matter, Introduction/CARS/cohesion, Methods/Results/Discussion/Conclusion, references and acknowledgments | Agenda-only labels; existing section, composition, evidence, and delivery guides cover the stated general functions. Detailed CARS or acknowledgment lessons are not present and are not inferred from unseen slides |
+| 3, 12 | Functions of eight manuscript components | Already covered by manuscript sections and argument/evidence; slide 12 repeats slide 3 |
+| 4 | Title, abstract, keyword topic overview | K routing and sections 2–4 |
+| 5 | Search, reader relevance, editor/reviewer first assessment | K §1; use recognizable terms without promises about citations or visibility |
+| 6 | Accurate, short, informative, searchable title; quick reader test | K §§1–2; length and three-second prompt treated as heuristics |
+| 7 | Subject, optional contribution, relevant method/material | K §2: select distinguishing information and preserve scope |
+| 8 | Descriptive, result-led, and question title forms | K §2 decision table; evidence boundaries and an answered question |
+| 9 | Title dos/don'ts, key terms, grammar, abbreviations, overstatement | K §2 and existing title guide; no universal 15-word limit |
+| 10 | Abstract as a coherent, self-contained miniature of the paper | K §3 and manuscript sections; structured formats remain possible |
+| 11, 14 | Context, purpose, approach, results, conclusion; suggested sentence allocations | K §3 functional checklist; no fixed quota or invented empirical results. Slide 14 repeats slide 11 inside a screenshot of the editor |
+| 13 | Abstract length, natural keywords, functional tense, citations/figures/acronyms | K §§1, 3 plus composition tense guidance; journal format controls exceptions |
+| 15 | Keywords as content descriptors and finding aids | K §§1, 4; no guarantee that keywords determine indexing or citation counts |
+| 16 | Candidate sources, broad/specific/method/core terms, generic words, repetition and abbreviations | K §4; meaningful coverage, established terminology, no unstudied topics, qualified repetition advice |
+| 17 | Keyword location, count, separators and trial search | K §4; provisional layout, journal-specific requirements, actual relevance check with honest verification status |
+| 18 | Core concepts, title, abstract; coherence and manuscript-hidden reader test | K §5 joint check; optional order, consistency with the actual paper |
+
+### Qualifications and external checks
+
+- The lecture's title, abstract, keyword, and sentence-count suggestions are illustrative. Preserve meaningful conditions and use the journal's actual instructions. The 3–5 core concepts on slide 18 are not a mandatory substitute for the final list discussed on slide 17.
+- Slide 16 cautions against simple title/abstract repetition, whereas slides 13 and 18 explicitly recommend integration. K §4 distinguishes a redundant list from useful overlap. [Taylor & Francis author guidance](https://authorservices.taylorandfrancis.com/publishing-your-research/writing-your-paper/using-keywords-to-write-title-and-abstract/) supports selecting a shortlist, trying relevant searches, and incorporating central terms naturally in titles and abstracts. Its [JATS keyword guidance](https://jats.taylorandfrancis.com/jats-guide/topics/keywords/) permits repeated as well as broader, narrower, or related terms. These sources were inspected on 29 October 2026; neither overrides an individual journal's instructions.
+- Slide 11's examples are disconnected teaching snippets. A group difference and a p-value do not by themselves establish predictive validity, and the placeholder study design, sample size, and duration are not facts available for a user's manuscript.
+- The source's promotional visibility claims are retained as a motivation for clarity and relevance, not a performance guarantee. The three-second check and the final colleague-reading test are editorial diagnostics, not measured outcomes.
+
+## Three course PDFs reviewed on 6 November 2026
+
+The following course materials credit 杜洋坤, Zhejiang University, 2026. The maps use the actual PDF pages, including the two lectures joined in the first file. The public skill supplies editorial procedures developed from the readings. Examples in the lectures remain teaching material. Names of other readings on a resource slide indicate further reading only.
+
+### 学术写作要求汇总.pdf · 138 pages
+
+| Pages | Topic | Audit result |
+|---|---|---|
+| 1–4, 52–55, 138 | Lecture frames, rule lists and recap | Existing overview covers rules 1–18 |
+| 5–6, 7–8, 9–13 | Possessives, series commas and parenthetical or restrictive material | Grammar §§1–3 already distinguish conventions, grouping and subset meaning |
+| 14–20, 21–30 | Coordination, clause boundaries, conjunctions, short parallel clauses, variable definitions | Grammar §§4 and 7 cover the alternatives, including coordinating *so* versus conjunctive *therefore* |
+| 31–33, 34–38, 39–43, 44–51 | Fragments, modifier actors, typesetting and eight rule recaps | Grammar §§5–8 cover these decisions and their exceptions |
+| 56–63, 64–77 | Paragraph purpose and development, contextual voice choices | Composition §§1–2 already cover paragraph bridges, nonhuman subjects and decisions requiring attribution |
+| 78–87, 88–98 | Direct statements and economical wording | Composition §§3–4 protect meaningful negation, conditions, timing and the object of validation |
+| 99–107, 108–115 | Sentence hierarchy and parallelism | Composition §§5–6 cover grammatical function, semantic symmetry and limits on statistical interpretation |
+| 116–123 | Attachment and reporting scope | Composition §7 already checks referents. Added an explicit test for whether moving a modifier transfers an attribute from a cited report to the present author, motivated by p. 118 |
+| 124–129, 130–137 | Functional tense and emphasis at sentence, paragraph and section levels | Composition §8 already covers mixed tenses and context-dependent emphasis |
+
+### 期刊论文写作.pdf · 49 pages
+
+| Pages | Topic | Audit result |
+|---|---|---|
+| 1–4, 5–17 | Orientation, IMRaD, title, abstract and keywords | Existing section and front-matter guides already cover these topics |
+| 18–21 | Introduction, territory, gap and response | Named the CARS moves, their evidentiary requirements and flexible use in the section guide |
+| 22–25 | Early introduction as a working argument, revision during research, final alignment | Added the iterative drafting and promise-to-result check |
+| 26–31 | Old-to-new flow, summary nouns, logical transitions and introduction pitfalls | Linked sentence-level cohesion to introduction diagnosis and the literature synthesis |
+| 32–37 | Section roles, reproducible Methods and supported Results | Added the peer reproduction check, including instrument source and coding where relevant. Existing Results guidance preserves observed findings |
+| 38–42 | Discussion hourglass, limitations, conclusion and section handoffs | Added comparison of studies at matched conditions and the four-way manuscript trace in review and delivery |
+| 43–47 | Citation management, style families, attribution and reuse | Added bidirectional citation reconciliation, version handling, citation fields, quotations, paraphrase and self-reuse decisions |
+| 48–49 | Funding, specific academic or technical contributions, resources and acknowledgment permissions | Added a professional acknowledgment workflow separate from funding and authorship claims |
+
+### coverletter写作.pdf · 39 pages
+
+| Pages | Topic | Implementation |
+|---|---|---|
+| 1–4, 5–10 | Submission stages, fit, journal instructions, materials and source files | Submission preparation and stage-specific checks |
+| 11–14 | Editor-facing purpose, salutation, manuscript identity and pitch | Letter structure, supported contribution and specific reader benefit |
+| 15–18 | Author attestations, ethics, AI and data | Fact-specific declarations, placement and consistency checks |
+| 19–22 | Signature, contacts, structure and annotated publisher example | Closing and final read. The annotated example on p. 22 was checked visually |
+| 23–25 | Geometry example, claim scope and readable formatting | Preserve tested conditions and write a concrete fit sentence. The new guide uses its own teaching example |
+| 26–31 | Form fields, upload categories, merged PDF and submission ID | Preparation and cross-file audit when requested |
+| 32–39 | Decision types, revision, response to evidence or scope concerns and proofs | Distinguish an editor-facing revision letter from the point-by-point response and confirm each change in the manuscript |
+
+The letter guidance also draws on the publisher resource identified on p. 21. Use the target journal's own current instructions to determine its required materials and declarations. [Taylor & Francis author guide](https://authorservices.taylorandfrancis.com/publishing-your-research/making-your-submission/writing-a-journal-article-cover-letter/)
 
 ## Scientific extensions added in this skill
 

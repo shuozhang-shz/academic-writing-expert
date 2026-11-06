@@ -8,11 +8,19 @@ Identify the object of study and the distinctive finding or question with the sc
 
 A title must not make a stronger causal or generality claim than the abstract and results.
 
+For choosing among title forms or checking search terms and title–abstract agreement, use the relevant part of [titles, abstracts, and keywords](titles-abstracts-keywords.md).
+
 ## Abstract
 
 Give the reader the problem, unresolved question, approach, principal findings, and justified contribution. Use the journal's structured headings if required. Allocate space to actual findings rather than long background or methods inventories. Report the most informative supplied quantities with their comparison and conditions; do not add numbers merely because an abstract usually contains them.
 
 The final inference should answer the stated question. A proposed application is not demonstrated application performance. Preserve essential boundaries, including exploratory status if applicable. Check that every result in the abstract exists in the main paper. Define abbreviations needed to read the abstract independently. When a strict word limit is given, count the final text with a stated convention if borderline; avoid dropping uncertainty or the comparison baseline to meet it.
+
+For a detailed stand-alone reading check, keyword integration, and format choices, see [the abstract guide](titles-abstracts-keywords.md#3-abstract-a-complete-account-that-stands-alone).
+
+## Keywords
+
+Choose relevant, recognizable terms from the actual paper, with enough specificity to distinguish its subject and approach. Keep the keyword list consistent with the title and abstract. Use [keyword selection](titles-abstracts-keywords.md#4-keywords-selection-placement-and-a-useful-search-check) for coverage, repetition, placement, journal counts, and an optional retrieval check.
 
 ## Introduction
 
@@ -20,9 +28,19 @@ Build a focused account of what is known, what remains unresolved, why that matt
 
 Organize prior work by the problem, finding, or disagreement it informs instead of listing papers one by one. Distinguish prior evidence from the present study's contribution and use citations accordingly. End at the specific objective, question, hypothesis, or contribution appropriate to the genre. If the field commonly previews findings, include a short, supported preview. Do not repeat the abstract or invent a gap to make the study appear novel.
 
+### Introduction drafting and the CARS model
+
+Use the three moves of *Create a Research Space* to diagnose a research introduction. Establish the relevant field with what the literature supports. Identify a specific unresolved question, conflict or limitation and explain why resolving it matters. Show how this paper addresses it through its objective, approach and bounded contribution. These moves can span several paragraphs or share one. Cite the gap where it depends on prior work. A transition word cannot establish that a gap exists.
+
+For work in progress, an early introduction can record the motivating observation, provisional question and expected value. Revisit it as the evidence develops. In the final pass, compare each promise with the completed Methods and Results, remove background that no longer leads to the question, and distinguish an original hypothesis from an interpretation developed after seeing the results.
+
+For a difficult transition, identify the new idea in one sentence and the next sentence's starting point. Bridge them with a stable term, an unambiguous pronoun or a phrase such as *this discrepancy*. Choose a connector only after identifying the actual relation. Check for a sweeping opening, a list of disconnected studies, a vague gap, a missing objective or unexplained significance.
+
 ## Methods
 
 Prioritize enough information for the reader to understand and, where relevant, reproduce the work. Retain design, materials or participants, inclusion/exclusion criteria, relevant procedures, controls, operational definitions, endpoints, analysis, and software/version details that affect interpretation.
+
+Try a reproduction read. Could a peer identify the study units and selection criteria, instruments or materials, steps and conditions, and the analysis behind each reported endpoint? For a questionnaire, for example, check the instrument source, response scale and coding if they affect interpretation. Query missing values from the authors.
 
 Choose organization appropriate to the work: chronological for a protocol, modular for a computational pipeline, or design-to-analysis for a study. Explain non-obvious methodological choices where the source gives a reason. Do not invent a rationale for a choice simply because one would sound reasonable.
 
@@ -46,6 +64,8 @@ Address plausible alternatives when they matter to the claim. State what evidenc
 
 Future work should follow from a specific uncertainty or application boundary. Present it as proposed work. Do not use 'future studies are needed' to conceal an unsupported present conclusion.
 
+For an hourglass discussion, start with the specific finding, interpret it, and compare it with prior studies at the level of actual measurements, populations or assumptions. Explain agreement or divergence where evidence permits. Expand toward implications only as far as the comparison and limitations allow. In a combined Results and Discussion, keep the observation, the interpretation and its evidentiary basis distinguishable within the paragraph.
+
 ## Conclusion
 
 Give the answer, contribution, and essential scope in proportion to the paper. Do not introduce new evidence, unverified novelty, or broader certainty than the Discussion. Avoid a second abstract or a catalogue of every number. Some article types do not require a separate conclusion; do not add one automatically.
@@ -61,6 +81,8 @@ Keep table headers and footnotes precise about units, denominators, abbreviation
 A review synthesizes what a defined body of work establishes, where studies disagree, and what limitations explain that disagreement. Do not imply a systematic search unless it was performed and documented. A perspective can develop an argument while marking conjecture as conjecture. A theoretical paper needs explicit assumptions, definitions, derivations, and the domain of the result. Apply paragraph unity, precision, and evidence calibration without imposing experimental IMRaD.
 
 ## Journal adaptation
+
+For reference formatting, funding or contributor credit, use [references and acknowledgments](references-and-acknowledgments.md). For editor-facing submission prose, use [journal cover letters](journal-cover-letter.md).
 
 When a specific journal is requested, distinguish its current formal instructions from inferred stylistic preferences. Check the official author guidance if requirements such as section structure, length, references, reporting checklists, or AI disclosure matter. If access is unavailable, label the format provisional.
 
